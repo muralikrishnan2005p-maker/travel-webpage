@@ -1,0 +1,69 @@
+.travel {
+    text-align: center;
+    color: rgb(231, 97, 7);
+    text-shadow: 2px 2px 5px black;
+}
+
+.nav {
+    color: white;
+    word-spacing: 100px;
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 70px;
+    color: rgb(14, 13, 13);
+}
+
+a {
+    color: black;
+    font-size: 20PX;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 5px white;
+
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(/web-images/30+\ Beautiful\ High-Resolution\ 4K\ Desktop\ Wallpapers\ —\ Speckyboy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.article {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.art {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+footer{
+    background-color: #0f3d3e;
+    color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+p{
+    line-height: 1.6;
+}
+
+.btn{
+    color: aqua;
+}

@@ -1,11 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+
 h2{
-    color: blue;
+    color: white;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-left: 20px;
 }
 
 .search{
-    width: 500px;
+    width: 700px;
+    margin-left: 50px;
    height: 30px;
    border-radius: 15px;
-   border: none;
+   border: none; 
 }
+
+.image img{
+    width: 70px;
+    height: 70px;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: blue;
+    width: 100%;
+}
+
+.explore{
+    font-style: italic;
+    font-weight: 700px;
+    font-size: 12px;
+    padding-left: 20px;
+    color: yellowgreen;
+}
+
+.btn{
+  margin-left: 60px;
+    gap: 20px;
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 20px;
+    margin-left: 140px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.item{
+    background-color: white;
+    border: 2px solid yellow;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px;
+    width: 20%;
+    padding: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+
+
+
+    
+
+}
+
+.item img{
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.rating{
+    font-size: 13px;
+    color: #388e3c;
+    font-weight: 600;
+    margin: 6px 0;
+}
+
+.title{
+    font-size: 14px;
+    color: #212121;
+    margin: 4px 0;
+}
+
+.price{
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 4px;
+    
+}
+
+.offer{
+    font-size: 13px;
+    color: #388ec3;
+    font-weight: 600;
+}
+
+.org-orice{
+    text-decoration: line-through;
+}
+
+ 
+ 
+
